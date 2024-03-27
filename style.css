@@ -15,6 +15,7 @@
     --surface-color: rgba(255, 255, 255, 0.5);
     --surface-color-hover: rgba(0, 0, 0, 0.02); /*Cor da superfície*/
     --highlight-color: rgba(255, 255, 255, 0.2);
+    --profile-shadow: rgba(236,232,224);
 
     --switch-bg-url: url(./assets/moon-dark.svg);
 }
@@ -26,6 +27,7 @@
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(0, 0, 0, 0.1);
+    --profile-shadow: #E4D8F0;
 
     --switch-bg-url: url(./assets/sun-light.svg);
 }
@@ -38,11 +40,9 @@ body{
 
 .container{
     width: 100%;
-    max-width: 588px;
+    max-width: 600px;
     margin: 5px auto 0px;
     padding: 0 24px;
-    
-    
 }
 
 .profile{
@@ -60,7 +60,8 @@ body{
     border: 2px solid white;
     scale: 1.1;
     transition: 0.3s;
-    box-shadow: 1px 3px 3px 3px rgba(236,232,224);
+    box-shadow: 1px 3px 3px 3px var(--profile-shadow);
+    margin-bottom: 5px;
 }
 
 
