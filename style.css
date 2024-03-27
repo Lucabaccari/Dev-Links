@@ -91,12 +91,12 @@ body{
     z-index: 1;
     transform: translateY(-50%);
 
-    animation: slide-back 0.2s;
+    
 }
 
 .light .switch button {
-    right: 0;
     left: initial;
+    right: 0;
 }
 
 .switch button:hover {
@@ -192,6 +192,7 @@ footer{
       --bg-url: url(./assets/bg-mobile-light.jpg);
     }
   }
-  
+
+
 
   
